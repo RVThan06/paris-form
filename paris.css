@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
+
+*{
+    font-family: 'Playfair Display', serif;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* style for the header text */
+.header-text > *{
+    margin:0;
+    padding:0;
+    font-size:1.2rem;
+}
+
+.header-text> h1{
+    margin-bottom:10px;
+}
+
+.header-text{
+    /*border:1px solid black;*/
+}
+
+/* style for the form content */
+
+label{
+    font-size: 0.8rem;
+    color: #222;
+    display:block;
+    margin-bottom: 5px;
+}
+
+
+input[type="email"]:invalid{
+    border:1px solid red;
+}
+
+input[type="email"]:valid{
+    border:1px solid blue;
+}
+
+input{
+    border:0;
+    background-color: #F0F0F0;
+    border-radius: 4px;
+    padding:5px;
+    display:block;
+    width:80%;
+}
+
+.form-input{
+    /*border: 2px solid blue;*/
+}
+
+form > div{
+    /*border: 1px solid black;*/
+    display:flex;
+    margin-bottom: 10px;
+}
+
+form>div>div{
+    /*border:1px solid red;*/
+    flex:0 1 auto;
+    width:max(40%, 400px)
+}
+
+.form-content{
+    padding-top:20px;
+    padding-bottom:20px;
+    /*border:1px solid blue;*/
+}
+
+.form-header{
+    margin-bottom: 10px;
+}
+
+/* styling html button */
+
+button{
+    background:black;
+    color:#fff;
+    padding:8px 25px;
+    border-radius: 5px;
+    margin-bottom: 10px;;
+}
+
+.form-submit{
+    /*border:1px solid green;*/
+}
+
+/* css for the whole form part*/
+
+.text-content{
+    border:2px solid #D3D3D3;
+    padding:0 20px;
+    padding-bottom: 10px;
+    flex:0 1 60%;
+    align-self:center;
+}
+
+/*styling graphic part*/
+
+.graphic-content{
+    background:url(./paris.jpg) no-repeat;
+    background-position: -50px -60px;
+    height:100%;
+    flex:1 0 0;
+}
+
+body{
+    display:flex;
+}
