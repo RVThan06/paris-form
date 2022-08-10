@@ -8,7 +8,7 @@
 
 /* style for the header text */
 .header-text > *{
-    margin:0;
+    margin:0; 
     padding:0;
     font-size:1.2rem;
 }
@@ -95,6 +95,7 @@ button{
     padding:0 20px;
     padding-bottom: 10px;
     flex:0 1 60%;
+    min-width:700px;
     align-self:center;
 }
 
@@ -103,8 +104,9 @@ button{
 .graphic-content{
     background:url(./paris.jpg) no-repeat;
     background-position: -50px -60px;
-    height:100%;
+    height:100vh;
     flex:1 0 0;
+    min-width: 500px;
 }
 
 body{
